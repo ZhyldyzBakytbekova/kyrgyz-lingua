@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+header{
+    border: 1px solid black;
+    width: 70px;
+    height: 100%;
+    position: fixed;
+    background-color: aqua;
+}
+main{
+    margin-left: 100px;
+    width: 100%;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: cyan;
+}
+textarea{
+    margin-top: 10px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: darkred;
+    margin-top: 20px;
+}
+.imghead{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0px;
+}
+.imglang{
+    width: 80px;
+    height: 60px;
+}
+.divLang{
+    border: 1px solid gray;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: aquamarine;
+}
+.cService{
+    display: flex;
+    justify-content: space-between;
+}
+.cAbout{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.imgAbout{
+    width: 350px;
+    height: 300px;
+}
+.pAbout{
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 8%;
+    text-align: center;
+}
+.cHome{
+    margin-left: -100px;
+    width: 100%;
+    height: 400px;
+}
+.imgHome{
+    width: 108%;
+    height: 400px;   
+}
+h3{
+    position: relative;
+    bottom: 380px;
+    text-align: center;
+}
+.cH1{
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+}
+.sHome{
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    margin-left: 200px;
+    font-weight: 700;
+}
+
+.cRegister{
+    margin-top: 40px;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(20, 156, 166);
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.modalC{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: limegreen;
+    font-weight: 600;
+    position: absolute;
+    bottom: -1050px;
+    left: 800px;
+    border-radius: 10px;
+    display: none;
+}
+.redModal{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: red;
+    font-weight: 600;
+    position: absolute;
+    bottom: -1050px;
+    left: 800px;
+    border-radius: 10px;
+}
+
